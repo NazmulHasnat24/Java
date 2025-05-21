@@ -20,8 +20,8 @@ public class Pattern1 {
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
          
-        for(int i = 0; i < number; i++  ){
-            for(int j = 0; j <= i; j++){
+        for(int row = 0; row < number; row++  ){
+            for(int col = 0; col <= row; col++){
                 System.out.print("*");
             }
             System.out.println();
