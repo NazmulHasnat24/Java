@@ -1,3 +1,16 @@
+
+/*
+
+print this star patten
+
+*****
+****
+***
+**
+*
+
+*/
+
 import java.util.Scanner;
 
 public class Pattern2 {
