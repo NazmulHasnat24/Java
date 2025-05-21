@@ -19,7 +19,7 @@ for(int i = 0; i <= num1; i++){
 
 System.out.println("Enter a neme here : ");
 
-String name = scan.nextLine();// duita tei scan use korate name ta print hocche na 
+String name = scan.nextLine();// duita tei scan use korate name ta print hocche na ar ei problem sudhu string ar int ei hoi
 
 System.out.println("My name is : " + name);
 }
