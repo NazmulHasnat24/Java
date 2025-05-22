@@ -26,7 +26,7 @@ public class Pattern3 {
          
         for(int row = 1; row <= number; row++  ){
             
-            for(int space = 1; space < number; space++){
+            for(int space = row; space < number; space++){
                 
                 System.out.print(" ");
 
@@ -36,6 +36,7 @@ public class Pattern3 {
                 System.out.print("*");
             }
             System.out.println();
+
         }
     }
     
